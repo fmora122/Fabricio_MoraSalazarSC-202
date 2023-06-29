@@ -16,7 +16,7 @@ public class invoiceCollector {
     private int invoiceYear = 0;
     private int invoiceMonth = 0;
     private int invoiceStatus = 0;
-
+    
     public String getCustomerName() {
         return customerName;
     }

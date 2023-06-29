@@ -66,7 +66,7 @@ public class Fabricio_MoraSalazar {
                 System.out.println("");
                 for (int month = 1; month <= 6; month ++) {
                     System.out.println("Payment #"+month);
-                    System.out.println("Amount: "+myInvoice.getInvoiceCost());
+                    System.out.println("Amount: "+(debt+(debt*0.05))/6);
                     //int currentMonth = myInvoice.getInvoiceMonth+
                     System.out.println("Month: "+(myInvoice.getInvoiceMonth()+month));
                     System.out.println("Year: "+myInvoice.getInvoiceYear());
